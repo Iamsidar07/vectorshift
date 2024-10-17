@@ -15,7 +15,7 @@ export const SubmitButton = () => {
     };
     try {
       const res = await axios.post(
-        "http://127.0.0.1:8000/pipelines/parse",
+        "https://diverse-lungfish-manojkumar-1f68c036.koyeb.app/pipelines/parse",
         pipeline,
       );
       console.log("received", res.data);
